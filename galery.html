@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <!-- Add these links in the head of your HTML file -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredericka+the+Great&family=Genos:ital,wght@1,300&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredericka+the+Great&family=Genos:ital,wght@1,300&family=Koulen&family=Orbitron:wght@700&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredericka+the+Great&family=Genos:ital,wght@1,300&family=Koulen&family=Orbitron:wght@700&family=Racing+Sans+One&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Portofolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Projects</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galery</a>
+        </li>
+        <li>
+          <a class="nav-link" href="skill.html">skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <h2 class="galery-h2">GALERY</h2>
+    <p class="section-p2">Kerkom Mengerjakan Tugas B.indo</p>
+    <a href="kerkom.jpg" onclick="toggleDescription('desc1')">
+      <img class="sec-img" src="kerkom.jpg" alt="Image 1">
+    </a>
+    <p id="desc1" class="section-p2 hidden">Kerkom Mengerjakan Tugas KJD Membuat Sebuah Makalah</p>
+
+    <a href="kerkomkjd.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="kerkomkjd.jpg" alt="Image 2">
+    </a>
+    <p  id="desc1" class="section-p2 hidden">saya dan rencang rencang otw Ciwidey</p>
+    <a href="otwciwidey.jpg" onclick="toggleDescription('')">
+      <img class="sec-img" src="otwciwidey.jpg" alt="Image 2">
+    </a>
+    <p  id="desc1" class="section-p2 hidden">Dingin Cuy</p>
+    <a href="Dingin cuy.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Dingin cuy.jpg" alt="Image 2">
+    </a>
+    <p  id="desc1" class="section-p2 hidden">Saya Sama Rencang Rencang Istirahat Sebentar</p>
+    <a href="Istirahat.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Istirahat.jpg" alt="Image 2">
+    </a>
+    <p  id="desc1" class="section-p2 hidden">Lanjut Jalan</p>
+    <a href="Lanjut jalan.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Lanjut jalan.jpg" alt="Image 2">
+    </a>
+    <p id="desc1" class="section-p2 hidden">Pemandangan Nya Bagus Cuy</p>
+    <a href="Pemandangan.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Pemandangan.jpg" alt="Image 2">
+    </a>
+    <p  id="desc1" class="section-p2 hidden">Lanjut ka Pantaikeun
+    <a href="Lanjut.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Lanjut.jpg" alt="Image 2">
+    </a>
+    <p id="desc1" class="section-p2 hidden">Sampe Juga
+    <a href="3org.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="3org.jpg" alt="Image 2">
+    </a>
+    <a href="Pantai.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Pantai.jpg" alt="Image 2">
+    </a>
+    <a href="Sampe.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Sampe.jpg" alt="Image 2">
+    </a>
+    <a href="Hehe.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Hehe.jpg" alt="Image 2">
+    </a>
+    <a href="Kece.jpg" onclick="toggleDescription('desc2')">
+      <img class="sec-img" src="Kece.jpg" alt="Image 2">
+    </a>
+    <h2 class="galery-h2">Video Saya</h2>
+    <p  id="desc1" class="section-p2 hidden">Menuju Ciwidey</p>
+  <video width="640" height="360" controls poster="poster-image.jpg">
+    <source src="VID-20231119-WA0015.mp4" type="video/mp4">
+    <source src="VID-20231119-WA0015.mp4" type="video/webm">
+    Browser Anda tidak mendukung tag video.
+    <!-- Sertakan format video alternatif di sini -->
+    <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+  </video>
+  <p id="desc1" class="section-p2 hidden">Menuju Pantai Cemara</p>
+  <video width="640" height="360" controls poster="/Screenshot_2023-12-18-01-14-33-958_com.miui.videoplayer.jpg">
+    <source src="VID-20231119-WA0009.mp4" type="video/mp4">
+    <source src="VID-20231119-WA0009.mp4" type="video/webm">
+    Browser Anda tidak mendukung tag video.
+    <!-- Sertakan format video alternatif di sini -->
+    <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+  </video>
+  <p id="desc1" class="section-p2 hidden">Sampe</p>
+  <video width="640" height="360" controls poster="/Screenshot_2023-12-18-01-14-12-696_com.miui.videoplayer.jpg">
+    <source src="VID-20231119-WA0006.mp4" type="video/mp4">
+    <source src="VID-20231119-WA0006.mp4" type="video/webm">
+    Browser Anda tidak mendukung tag video.
+    <!-- Sertakan format video alternatif di sini -->
+    <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+  </video>
+  <video width="640" height="360" controls poster="poster-image.jpg">
+    <source src="VID-20231119-WA0011.mp4" type="video/mp4">
+    <source src="VID-20231119-WA0011.mp4" type="video/webm">
+    Browser Anda tidak mendukung tag video.
+    <!-- Sertakan format video alternatif di sini -->
+    <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+  </video>
+    <p id="desc1" class="section-p2 hidden">Challenge Nu Kabur Push Up🤣</p>
+    <video width="640" height="360" controls poster="poster-image.jpg">
+      <source src="VID-20231119-WA0013.mp4" type="video/mp4">
+      <source src="VID-20231119-WA0013.mp4" type="video/webm">
+      Browser Anda tidak mendukung tag video.
+      <!-- Sertakan format video alternatif di sini -->
+      <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+    </video>
+      <p id="desc1" class="section-p2 hidden">Pulang karna tos carape, mawa na hayang buru buru ka imah hayang sare</p>
+      <video width="640" height="360" controls poster="poster-image.jpg">
+        <source src="VID-20231119-WA0014.mp4" type="video/mp4">
+        <source src="VID-20231119-WA0014.mp4" type="video/webm">
+        Browser Anda tidak mendukung tag video.
+        <!-- Sertakan format video alternatif di sini -->
+        <track kind="subtitles" src="subtitles.vtt" srclang="id" label="Indonesian">
+      </video>
+ 
+    <p id="desc2" class="section-p2 hidden"><!-- Add description for Image 2 here --></p>
+
+    <!-- Add more images and descriptions here -->
+  </section>
+
+  <script>
+    function toggleDescription(id) {
+      var description = document.getElementById(id);
+      if (description.style.display === "none" || description.style.display === "") {
+        description.style.display = "block";
+      } else {
+        description.style.display = "none";
+      }
+    }
+  </script>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <!-- Your custom scripts or additional libraries -->
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
